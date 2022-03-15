@@ -1,6 +1,6 @@
 name = "CPUInfo_jll"
 uuid = "48a17e46-e8cd-5edf-9ac6-c264fe76544e"
-version = "0.0.20200612+0"
+version = "0.0.20200228+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
