@@ -1,135 +1,143 @@
 [[CPUInfo]]
 arch = "aarch64"
-git-tree-sha1 = "bcd2822485bee41a6c3048d9a4ad7c3e8df8118a"
-libc = "glibc"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "0696f0dea550781c82f7c75af4c44473084ada5803e589abdb3451f372cb6aab"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.aarch64-linux-gnu.tar.gz"
-[[CPUInfo]]
-arch = "aarch64"
-git-tree-sha1 = "9c42940bcad6ef62df08d9df58a66b9d88bf9ef7"
-libc = "musl"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "01b23723d31b17a7652da869471825537a0faea4731a4109e8ce592ce2de2811"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.aarch64-linux-musl.tar.gz"
-[[CPUInfo]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "d95374cbaf86589f3d65f283f3ce81df4225e526"
-libc = "glibc"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "0235e90e7737c1d3a69d1568c27a8d23ed809e88a81dde87b2c3e98b4d798f48"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.armv6l-linux-gnueabihf.tar.gz"
-[[CPUInfo]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "191819a3e418b5b3012eec391d1bb2089f525b18"
-libc = "musl"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "5ab5ef32ceb774b5b59638843adb054962cfce3a164dd1de2e5ce308e245bed2"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.armv6l-linux-musleabihf.tar.gz"
-[[CPUInfo]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "9167dbf2474e25d295be28a4dc66f0f55ddc5d6b"
-libc = "glibc"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "427b4981bffd761903deabb8f6e33f8003afc9c46a0afdceaf7ea14764b9832c"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.armv7l-linux-gnueabihf.tar.gz"
-[[CPUInfo]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "4cc939bb83b1cdf30f2203625906ef1644c646dc"
-libc = "musl"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "4376ff539a09855d7cf0804530ec6f941c618561401e07c8217f03131ecee3b7"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.armv7l-linux-musleabihf.tar.gz"
-[[CPUInfo]]
-arch = "i686"
-git-tree-sha1 = "e42edfff9bf7f375981b33d586cd75c8f5f639df"
-libc = "glibc"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "ebd6c0bb59069de863a10619045504da6f0e622511b793d320e3af5526719afd"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.i686-linux-gnu.tar.gz"
-[[CPUInfo]]
-arch = "i686"
-git-tree-sha1 = "f75455be3de60421c11907f79927cd40b3aeaa17"
-libc = "musl"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "9436b5d2c8afc172e69fd2715300269c0e16daca6d0f82b39ebea0edfdcb15c3"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.i686-linux-musl.tar.gz"
-[[CPUInfo]]
-arch = "i686"
-git-tree-sha1 = "97f78b09db588a54dc2a0abe0bc5f4ba253e7ed8"
-os = "windows"
-
-    [[CPUInfo.download]]
-    sha256 = "3643c7c892db99f3a4db360534ec23f0c27be42de7b0cbd0bda511e53203cddd"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.i686-w64-mingw32.tar.gz"
-[[CPUInfo]]
-arch = "powerpc64le"
-git-tree-sha1 = "7f790d8e2b5516ef441a2172aac7193622bda032"
-libc = "glibc"
-os = "linux"
-
-    [[CPUInfo.download]]
-    sha256 = "ab02aefa80e65f46d154da43f0e05c2ab15888d8daea304868802e2d23c22972"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.powerpc64le-linux-gnu.tar.gz"
-[[CPUInfo]]
-arch = "x86_64"
-git-tree-sha1 = "6e986b032781b0548661c00c515b1cd671b85dfa"
+git-tree-sha1 = "c20588653b4bbd1dd6cdcc9591f75564db47116c"
 os = "macos"
 
     [[CPUInfo.download]]
-    sha256 = "9e349e610190733d15b245c3170a7efb1d714debfa3b3e82c6e2197e73669877"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.x86_64-apple-darwin.tar.gz"
+    sha256 = "d122c2eb7242b8a4d8fb7d37c863e89acf45c9a5449c9b70be2abfdf34f5833f"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.aarch64-apple-darwin.tar.gz"
 [[CPUInfo]]
-arch = "x86_64"
-git-tree-sha1 = "4bd46c80a41050f67d95c68a70de3097a5f541ba"
+arch = "aarch64"
+git-tree-sha1 = "2b6a21ce7bfdce0c1abf2d0743f3be7cb07ea95b"
 libc = "glibc"
 os = "linux"
 
     [[CPUInfo.download]]
-    sha256 = "350e2703716d94b6133edbb8a7a3887d9c9e344a2ab80da7af8ee95394b6c142"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.x86_64-linux-gnu.tar.gz"
+    sha256 = "bbc022db9e74fb66b3d5963ba23f229c3a7f6279b6b51ac49f006ed59a81766e"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.aarch64-linux-gnu.tar.gz"
 [[CPUInfo]]
-arch = "x86_64"
-git-tree-sha1 = "dd4f10a24256408746370e30f1951c5acf6aa9f2"
+arch = "aarch64"
+git-tree-sha1 = "69ee3379943fd87864f0c43997ec8a6924dd6054"
 libc = "musl"
 os = "linux"
 
     [[CPUInfo.download]]
-    sha256 = "cc3bacd498e89474c2213d88137ce3455867469807554e1065b69ae11835b0d6"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.x86_64-linux-musl.tar.gz"
+    sha256 = "44fe6c5cc33c09dbe8dc5bc56c9a67108a788b0127988c0c8ccf8337efe156b8"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.aarch64-linux-musl.tar.gz"
 [[CPUInfo]]
-arch = "x86_64"
-git-tree-sha1 = "58156c9142628082a033e1b45a3dc3c0241b9aab"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "9beaf00241384765c9d85ce0fc78ba0088c66aff"
+libc = "glibc"
+os = "linux"
 
     [[CPUInfo.download]]
-    sha256 = "65bfc8761ac8b826567a7cfb12a778bd6848be68c49c34226a19a0b0950a4899"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "89586371ac2f1eeeab958cc5721f7117ccf53ee21419900864ce1e7097b331f9"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.armv6l-linux-gnueabihf.tar.gz"
 [[CPUInfo]]
-arch = "x86_64"
-git-tree-sha1 = "175e59b8945af62ad4e812b4ee14507be3733c45"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "7bee5b4c1d976029ebc470d3a45a282902ef8cf8"
+libc = "musl"
+os = "linux"
+
+    [[CPUInfo.download]]
+    sha256 = "61e49f29bbc5043db77d1760c9402db3e1d6c8bd8b73fdd56677de6a2070b5f6"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.armv6l-linux-musleabihf.tar.gz"
+[[CPUInfo]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "08f0118509379c4b25997a8e38a1e4f1fdd6354f"
+libc = "glibc"
+os = "linux"
+
+    [[CPUInfo.download]]
+    sha256 = "5525983212ef1da78c1ebe9ea14a1021f5564b0e5af7f8e46a691a2096348f13"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.armv7l-linux-gnueabihf.tar.gz"
+[[CPUInfo]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e26b6560475942a84c24d294c18907ab32ed68f1"
+libc = "musl"
+os = "linux"
+
+    [[CPUInfo.download]]
+    sha256 = "674dd5d9743ac689a958466115b0f92c70b991fdad5ecd2309a693103aa767c3"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.armv7l-linux-musleabihf.tar.gz"
+[[CPUInfo]]
+arch = "i686"
+git-tree-sha1 = "e008c1ca377c9eb17a2644d1219109f87f744d11"
+libc = "glibc"
+os = "linux"
+
+    [[CPUInfo.download]]
+    sha256 = "50b2852d70f799610956efc27a9cf9fc5714264f37bd72d540c95f8129a671c9"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.i686-linux-gnu.tar.gz"
+[[CPUInfo]]
+arch = "i686"
+git-tree-sha1 = "a88aa0201718f4ebdac07f6491e06523c74f8419"
+libc = "musl"
+os = "linux"
+
+    [[CPUInfo.download]]
+    sha256 = "b95cf4c8b1a2e2cf04e83ec887f6d93450cbb7c178ce21ec9eb006b05ffe4e0f"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.i686-linux-musl.tar.gz"
+[[CPUInfo]]
+arch = "i686"
+git-tree-sha1 = "2a7e30295753c50c5aea7cfb87d55815ac6e03aa"
 os = "windows"
 
     [[CPUInfo.download]]
-    sha256 = "c4da6fe8ab1ac6fda2c4429c8a1f61fb448fee61fb6d727a6ae2e3e66ca4afd2"
-    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20200522+0/CPUInfo.v0.0.20200522.x86_64-w64-mingw32.tar.gz"
+    sha256 = "99971202aeb4260e1c0957bc1fd04a7aa4685b4d79da963efaa2391f7da5e21c"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.i686-w64-mingw32.tar.gz"
+[[CPUInfo]]
+arch = "powerpc64le"
+git-tree-sha1 = "8214b9358be170377ec09428c64f0f12881721c2"
+libc = "glibc"
+os = "linux"
+
+    [[CPUInfo.download]]
+    sha256 = "d46f36f13231e0f886ab298e22510dbaabf6b987bf831f8b2a81629512d9f093"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.powerpc64le-linux-gnu.tar.gz"
+[[CPUInfo]]
+arch = "x86_64"
+git-tree-sha1 = "c7b776d58a33e44ce4e5f00eb9e1950bb8fb0013"
+os = "macos"
+
+    [[CPUInfo.download]]
+    sha256 = "0a55247a7712d67dab1bdd0949ed34600d6e8524cedc5b2e73f3e071176c18bd"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.x86_64-apple-darwin.tar.gz"
+[[CPUInfo]]
+arch = "x86_64"
+git-tree-sha1 = "9a585cbcaa5b8d455d5e023e28cab0eeb248db54"
+libc = "glibc"
+os = "linux"
+
+    [[CPUInfo.download]]
+    sha256 = "a5417d018e1cdb410276b95c90152f6c5b497f687920c13a21e0bba89e2c0b47"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.x86_64-linux-gnu.tar.gz"
+[[CPUInfo]]
+arch = "x86_64"
+git-tree-sha1 = "aa15b927d27dc007a04fef406002f0f55a84a0f6"
+libc = "musl"
+os = "linux"
+
+    [[CPUInfo.download]]
+    sha256 = "467351c111da8297884ad4bc636573d874e77b4a3915697484b5c362dfe5772f"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.x86_64-linux-musl.tar.gz"
+[[CPUInfo]]
+arch = "x86_64"
+git-tree-sha1 = "ac974d49659fba3922dd468a9983ed452f612d9f"
+os = "freebsd"
+
+    [[CPUInfo.download]]
+    sha256 = "0f60f1db594ebe1c86ce567bdcf1cad725c0da22fca8d56edfc1ab6c8978ccb2"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.x86_64-unknown-freebsd.tar.gz"
+[[CPUInfo]]
+arch = "x86_64"
+git-tree-sha1 = "54c6f648e28dbe44e611b67207bd51a19b3d5fb1"
+os = "windows"
+
+    [[CPUInfo.download]]
+    sha256 = "28e9bc118a38eb78dde76c24a6cd9b91dfa6dcbc9598e9b4eb029bfe44054572"
+    url = "https://github.com/JuliaBinaryWrappers/CPUInfo_jll.jl/releases/download/CPUInfo-v0.0.20201217+0/CPUInfo.v0.0.20201217.x86_64-w64-mingw32.tar.gz"
